@@ -18,7 +18,7 @@ pipeline {
     
     stage('deploy to staging (surge)') {
       steps {
-        sh 'npm install -y -g surge'
+        sh 'npm install -g surge'
         sh 'surge --project public --domain ${STAGING_DOMAIN}'
       }
     }
