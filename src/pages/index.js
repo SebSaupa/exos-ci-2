@@ -25,6 +25,7 @@ const IndexPage = () => {
         <br />
         <span style={headingAccentStyles}>Site Gatsby opérationnel</span>
         <p>Nouvel apport à l'application</p>
+        <p>Pipeline Jenkins</p>
       </h1>
     </main>
   )
