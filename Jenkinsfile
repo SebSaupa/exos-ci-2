@@ -15,9 +15,7 @@ pipeline {
         sh 'npm run build'
       }
     }
-  }
-
-  stages {
+    
     stage('deploy to staging (surge)') {
       steps {
         sh 'npm install -g surge'
